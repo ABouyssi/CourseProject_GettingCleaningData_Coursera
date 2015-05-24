@@ -45,3 +45,16 @@ The __res_reshaped.txt__ file is made of two identification columns:
 - Triaxial angular aceleration and jerk acceleration (derived from body acceleration) from the gyroscope and angular acceleration magnitude using Euclidean distance in temporal domain (t-prefix).
 
 A Fourier transform was applied to these measures so that the same acceleration, jerk acceleration for body and gyroscope are available in the frequency domain (f-prefix).
+
+All the variable mentioned above have been normalized.
+Units are: 
+- acceleration: m/s^2
+- jerk acceleration: m/s^3
+- angular acceleration: rad/s^2
+- angular jerk acceleration: rad/s^3
+in the time domain and:
+- acceleration: m*s^2
+- jerk acceleration: m*s^3
+- angular acceleration: rad*s^2
+- angular jerk acceleration: rad*s^3
+in the frequency domain.
